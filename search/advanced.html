@@ -1,0 +1,86 @@
+<html lang="en">
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            h2 {
+                font-size: 15px;
+          }
+            input[type=text], select {
+                width: 130%;
+                padding: 2px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+          }
+          .btn-blue {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: white;
+            background-color: blue;
+            border: 1px solid blue;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        </style>
+          
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h1>
+                    <font color="blue">C</font>
+                    <font color="red">S</font>
+                    <font color="gold">5</font>
+                    <font color="blue">0</font>
+                    <font color="green">W</font>
+                    <font color="gold">o</font>
+                    <font color="blue">o</font>
+                    <font color="green">g</font>
+                    <font color="red">l</font>
+                    <font color="gold">e</font>
+                </h1>
+                <h2 style="color:red;"> Advanced Search </h2>
+            </div>
+            <div class="grid-item"></div>
+            <div class="grid-item">
+                <a href="index.html">Google Search</a>
+                <a href="image.html">Image Search</a>
+            </div>  
+            <div class="grid-item2">
+                <h1> all of these words: </h1>
+                <h1> this exact phrase: </h1>
+                <h1> any of these words: </h1>
+                <h1> none of these words: </h1>
+            </div>
+
+            <div class="grid-item">
+                <form action="https://google.com/search?q=name">
+                    <input type="text" name="as_q">
+                    <br>
+                    <input type="text" name="as_epq">
+                    <br>
+                    <input type="text" name="as_oq">
+                    <br>
+                    <input type="text" name="as_eq">
+                    <br>
+                <input type="submit" class="btn-blue" value="Advanced Search">
+                </form>
+            </div>
+            <div class="grid-item3">
+                <h1> Type the important words:  great horned owl </h1>
+                <h1> Put exact words in quotes: "great horned owl"</h1>
+                <h1> Type OR between all the words: great OR horned OR owl</h1>
+                <h1> Put a minus sign in front of words you don't want: -Woodsy</h1>
+            </div>  
+
+        </div>
+
+    </body>
+</html>
